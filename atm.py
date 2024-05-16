@@ -52,7 +52,9 @@ if user_id == "21450" and pin == password:
                     print("Insufficient balance")
 
                     print("Your current balance is: ", balance)
-                    print("===========================================================")
+                    print(
+                        "============================================================"
+                    )
                     time.sleep(1)
                 else:
                     balance = balance - withdraw_amt
